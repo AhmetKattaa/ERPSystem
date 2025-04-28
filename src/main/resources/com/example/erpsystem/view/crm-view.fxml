@@ -12,7 +12,10 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.erpsystem.controller.CRMController">
 
-    <HBox spacing="20" padding="20">
+    <HBox spacing="20">
+        <padding>
+            <Insets top="20" right="20" bottom="20" left="20"/>
+        </padding>
         <VBox fx:id="newColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
             <Label text="New" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
         </VBox>

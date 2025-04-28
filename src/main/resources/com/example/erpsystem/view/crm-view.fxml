@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+
+
+
+<ScrollPane fitToWidth="true" fitToHeight="true" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.erpsystem.controller.CRMController">
+
+    <HBox spacing="20" padding="20">
+        <VBox fx:id="newColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
+            <Label text="New" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
+        </VBox>
+
+        <VBox fx:id="qualifiedColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
+            <Label text="Qualified" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
+        </VBox>
+
+        <VBox fx:id="propositionColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
+            <Label text="Proposition" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
+        </VBox>
+
+        <VBox fx:id="negotiationColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
+            <Label text="Negotiation" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
+        </VBox>
+
+        <VBox fx:id="wonColumn" spacing="10" prefWidth="200" style="-fx-background-color: #F2F2F2; -fx-padding: 10;">
+            <Label text="Won" style="-fx-font-weight: bold; -fx-font-size: 16px;"/>
+        </VBox>
+    </HBox>
+</ScrollPane>

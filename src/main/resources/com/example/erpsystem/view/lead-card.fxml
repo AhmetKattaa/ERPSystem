@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.erpsystem.controller.LeadCardController"
+      spacing="5"
+      style="-fx-background-color: #ffffff; -fx-border-color: #cccccc; -fx-border-radius: 8; -fx-background-radius: 8; -fx-padding: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5,0,0,1);"
+      prefWidth="180">
+
+    <Label fx:id="titleLabel" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+    <Label fx:id="customerLabel" style="-fx-font-size: 12px;"/>
+    <Label fx:id="priceLabel" style="-fx-font-size: 12px; -fx-text-fill: green;"/>
+</VBox>

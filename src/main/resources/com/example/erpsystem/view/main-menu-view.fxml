@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.erpsystem.controller.MainMenuController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Text text="ERP Ana Menü" style="-fx-font-size: 24px;"/>
+
+    <Button text="CRM Modülü" onAction="#openCRM"/>
+    <Button text="To Do Modülü" onAction="#openToDo"/>
+    <Button text="Shipping Modülü" onAction="#openShipping"/>
+    <Button text="Contact Modülü" onAction="#openContact"/>
+</VBox>
